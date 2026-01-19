@@ -202,7 +202,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="https://github.com/D200322/portfolio" className="github" target="_blank">GitHub</a>
         <a href="#" className="live">Live Demo</a>
       </div>
     </div>
@@ -454,22 +454,22 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
   <h2>Contacts</h2>
 
   <p><strong>Phone:</strong> 0764697718</p>
-  <p><strong>Email:</strong> durangi@email.com</p>
+  <p><strong>Email:</strong> nirmanidurangi2003@gmail.com</p>
 
   <div className="contact-icons">
     <a href="https://github.com/D200322" target="_blank" rel="noopener noreferrer">
       <FaGithub />
     </a>
-    <a href="www.linkedin.com/in/durangi-nirmani" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/durangi-nirmani" target="_blank" rel="noopener noreferrer">
       <FaLinkedin />
     </a>
-    <a href="https://instagram.com/durangi_profile" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/invites/contact/?igsh=1u28dnj6lq5sc&utm_content=r141yau" target="_blank" rel="noopener noreferrer">
       <FaInstagram />
     </a>
     <a href="https://wa.me/94764697718" target="_blank" rel="noopener noreferrer">
       <FaWhatsapp />
     </a>
-    <a href="mailto:nirmanidurangi@gmail.com">
+    <a href="mailto:nirmanidurangi2003@gmail.com">
       <FaEnvelope />
     </a>
   </div>
