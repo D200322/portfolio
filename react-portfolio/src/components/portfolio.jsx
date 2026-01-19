@@ -189,6 +189,23 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
   <h2>Projects</h2>
 
   <div className="project-grid">
+    
+    <div className="project-card">
+      <h3>Portfolio</h3>
+      <p>
+        My portfolio website built with React.js to ahowcase my skills, projects, and contact information.
+      
+      </p>
+
+      <div className="project-tech">
+        <span>React</span>
+      </div>
+
+      <div className="project-actions">
+        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="#" className="live">Live Demo</a>
+      </div>
+    </div>
 
     <div className="project-card">
       <h3>Gamified E-Learning Platform for O/L ICT Students -Group Project(2025-Ongoing)</h3>
@@ -210,7 +227,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
     </div>
 
     <div className="project-card">
-      <h3>Student Assessment Analysis(2025)</h3>
+      <h3>Lab - Student Assessment Analysis(2025)</h3>
       <p>
        Analyzed student performance data to identify trends and patterns, enabling better insights into academic outcomes. Focused on data cleaning, exploratory analysis, and visualization to support decision-making.
        
@@ -232,7 +249,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
     </div>
     <div className="project-card">
-      <h3>Phone Price Predictor(2025)</h3>
+      <h3>Lab - Phone Price Predictor(2025)</h3>
       <p>
        Built a machine learning model to predict mobile phone prices using historical specifications and user ratings. Included data preprocessing, model training, and performance evaluation.
       </p>
@@ -253,7 +270,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
     </div>
     <div className="project-card">
-      <h3>Heart Failure Prediction(2025)</h3>
+      <h3>Lab - Heart Failure Prediction(2025)</h3>
       <p>
        Developed a predictive model to assess the risk of heart failure using clinical datasets. Focused on feature selection, classification modeling, and evaluation of model accuracy and reliability.
        
@@ -325,7 +342,22 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
         <a href="#" className="live">Live Demo</a>
       </div>
     </div>
-    
+    <div className="project-card">
+      <h3>A Mindful Grama Niladari Digital Platform-Group Mini Project </h3>
+      <p>
+        Designed a digital platform prototype to check Grama Niladhari availability, conducting UX research and enhancing usability through team collaboration.
+      </p>
+      <div className="project-tech">
+        <span>Figma</span>
+        <span>Prototyping</span>
+        <span>Group Project Collaboration</span>
+      </div>
+
+      <div className="project-actions">
+        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="#" className="live">Live Demo</a>
+      </div>
+    </div>
 
   </div>
 </section>
@@ -351,11 +383,16 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       { title: "The Whole Team Approach to Continuous Testing-Test Automation University(online learning program)", image: "/certificates/api_e.jpg" },
       { title: "Python Programming-Test Automation University(online learning program)", image: "/certificates/api_p.jpg" },
 
-      { title: "Web Design for Beginners , Python for Beginners ", image: "/certificates/api_p.jpg" },
+      { title: "Web Design for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/web.jpg" },
+      { title: "Python for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/py.jpg" },
 
-      { title: "Introduction to C, Introduction to Javascript, Introduction to Python, Python Intermediate, Introduction to SQL – Sololearn", image: "/certificates/sololearn.jpg" },
-      { title: "API Test Automation with Postman, Codeless Test Automation with Selenium IDE, Web Element Locator Strategies, Setting a Foundation for Successful Test Automation", image: "/certificates/api_a.jpg" },
-      { title: "Git & GitHub Essentials – Online Workshop", image: "/certificates/git-github.jpg" },
+      { title: "Introduction to CL – Sololearn", image: "/certificates/sololearn.jpg" },
+      { title: "Introduction to Javascript", image: "/certificates/sololearn.jpg" },
+      { title: "Introduction to Python – Sololearn", image: "/certificates/sololearn.jpg" },
+      { title: "Python Intermediate, Introduction to SQL – Sololearn", image: "/certificates/sololearn.jpg" },
+      { title: "Introduction to SQL – Sololearn", image: "/certificates/sololearn.jpg" },
+      
+      
     ].map((cert, index) => (
       <li key={index} style={{ marginBottom: "12px" }}>
         {cert.title}
