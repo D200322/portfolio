@@ -460,7 +460,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
     <a href="https://github.com/D200322" target="_blank" rel="noopener noreferrer">
       <FaGithub />
     </a>
-    <a href="www.linkedin.com/in/durangi-nirmani-bb265332b" target="_blank" rel="noopener noreferrer">
+    <a href="www.linkedin.com/in/durangi-nirmani" target="_blank" rel="noopener noreferrer">
       <FaLinkedin />
     </a>
     <a href="https://instagram.com/durangi_profile" target="_blank" rel="noopener noreferrer">
