@@ -386,11 +386,11 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       { title: "Web Design for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/web.jpg" },
       { title: "Python for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/py.jpg" },
 
-      { title: "Introduction to CL – Sololearn", image: "/certificates/sololearn.jpg" },
-      { title: "Introduction to Javascript", image: "/certificates/sololearn.jpg" },
-      { title: "Introduction to Python – Sololearn", image: "/certificates/sololearn.jpg" },
-      { title: "Python Intermediate, Introduction to SQL – Sololearn", image: "/certificates/sololearn.jpg" },
-      { title: "Introduction to SQL – Sololearn", image: "/certificates/sololearn.jpg" },
+      { title: "Introduction to C – Sololearn", image: "/certificates/c.jpg" },
+      { title: "Introduction to Javascript– Sololearn", image: "/certificates/j.jpg" },
+      { title: "Introduction to Python – Sololearn", image: "/certificates/py.jpg" },
+      { title: "Python Intermediate, Introduction to SQL – Sololearn", image: "/certificates/pyd.jpg" },
+      { title: "Introduction to SQL – Sololearn", image: "/certificates/sql.jpg" },
       
       
     ].map((cert, index) => (
