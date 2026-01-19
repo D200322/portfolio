@@ -1,6 +1,6 @@
 // App.jsx
 import React from "react";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/portfolio";
 import "./components/portfolio.css";
 
 
