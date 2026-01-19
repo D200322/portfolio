@@ -70,8 +70,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       <section id="about" className="section">
         <h2>About Me</h2>
         <p>
-          Software Engineering undergraduate currently pursuing a Bachelor of Software Engineering at The Open University of Sri Lanka, 
-          seeking an IT-related internship to gain practical industry experience and develop skills to become a competent and well-regarded IT professional.
+          Software Engineering undergraduate currently pursuing a Bachelor of Software Engineering at The Open University of Sri Lanka, seeking a software engineering internship to gain practical industry experience and develop skills to become a competent and well-regarded software professional.
         </p>
       </section>
 
