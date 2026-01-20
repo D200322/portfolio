@@ -220,7 +220,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="https://github.com/D200322/Gamified-E-Learning-Platform-for-O-L-ICT-Students-Group-Project" className="github" target="_blank">GitHub</a>
         <a href="#" className="live">Live Demo</a>
       </div>
     </div>
@@ -243,7 +243,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="https://github.com/D200322/Student-Assessment-Analysis-Lab" className="github" target="_blank">GitHub</a>
         <a href="#" className="live">Live Demo</a>
       </div>
     </div>
@@ -264,7 +264,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="https://github.com/D200322/Smartphones" className="github" target="_blank">GitHub</a>
         <a href="#" className="live">Live Demo</a>
       </div>
     </div>
@@ -286,7 +286,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="https://github.com/D200322/Heart-Failure-Prediction" className="github" target="_blank">GitHub</a>
         <a href="#" className="live">Live Demo</a>
       </div>
     </div>
@@ -337,7 +337,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
+        <a href="https://github.com/D200322/Bank-Account-Management-System" className="github" target="_blank">GitHub</a>
         <a href="#" className="live">Live Demo</a>
       </div>
     </div>
