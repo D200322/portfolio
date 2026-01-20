@@ -79,10 +79,11 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 <section id="skills" className="section dark">
   <h2>Skills</h2>
 
+  <h3>Technical Skills</h3>
   <div className="skills-container">
 
     <div className="skills-category">
-      <h3>Frontend Development</h3>
+      <h4>Frontend Development</h4>
       <ul>
         <li>HTML5</li>
         <li>CSS3</li>
@@ -92,7 +93,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
     </div>
 
     <div className="skills-category">
-      <h3>Backend Development</h3>
+      <h4>Backend Development</h4>
       <ul>
         <li>Node.js</li>
         <li><strong>Express.js</strong></li>
@@ -101,7 +102,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
     </div>
 
     <div className="skills-category">
-      <h3>Databases</h3>
+      <h4>Databases</h4>
       <ul>
         <li>MySQL</li>
         <li><strong>MongoDB</strong></li>
@@ -109,7 +110,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
     </div>
 
     <div className="skills-category">
-      <h3>Tools & Technologies</h3>
+      <h4>Tools & Technologies</h4>
       <ul>
         <li>Git & GitHub</li>
         <li>Postman</li>
@@ -118,15 +119,18 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
     </div>
 
     <div className="skills-category">
-      <h3>AI & Data</h3>
+      <h4>AI & Data</h4>
       <ul>
-        <li>Machine Learning Fundamentals</li>
-        <li>AI Tools & Prompt Engineering</li>
+        <li>Machine Learning </li>
+        <li>AI</li>
       </ul>
     </div>
 
+  </div>
+
+  <h3>Soft Skills</h3>
+  <div className="skills-container">
     <div className="skills-category">
-      <h3>Soft Skills</h3>
       <ul>
         <li>Teamwork & Communication</li>
         <li>Problem Solving</li>
@@ -134,7 +138,6 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
         <li>Adaptability</li>
       </ul>
     </div>
-
   </div>
 </section>
 
@@ -190,7 +193,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
   <div className="project-grid">
     
     <div className="project-card">
-      <h3>Portfolio</h3>
+      <h3>Portfolio (January 2026)</h3>
       <p>
         My portfolio website built with React.js to ahowcase my skills, projects, and contact information.
       
@@ -202,12 +205,12 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 
       <div className="project-actions">
         <a href="https://github.com/D200322/portfolio" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
 
     <div className="project-card">
-      <h3>Gamified E-Learning Platform for O/L ICT Students -Group Project(2025-Ongoing)</h3>
+      <h3>Gamified E-Learning Platform for O/L ICT Students -Group Project(2025-Present)</h3>
       <p>
         Developed a full-stack web application that provides interactive lessons, quizzes, progress tracking, and role-based access to enhance student engagement and learning outcomes.
       </p>
@@ -221,12 +224,12 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 
       <div className="project-actions">
         <a href="https://github.com/D200322/Gamified-E-Learning-Platform-for-O-L-ICT-Students-Group-Project" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
 
     <div className="project-card">
-      <h3>Lab - Student Assessment Analysis(2025)</h3>
+      <h3>Lab - Student Assessment Analysis (June 2025)</h3>
       <p>
        Analyzed student performance data to identify trends and patterns, enabling better insights into academic outcomes. Focused on data cleaning, exploratory analysis, and visualization to support decision-making.
        
@@ -244,11 +247,11 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 
       <div className="project-actions">
         <a href="https://github.com/D200322/Student-Assessment-Analysis-Lab" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
     <div className="project-card">
-      <h3>Lab - Phone Price Predictor(2025)</h3>
+      <h3>Phone Price Predictor  (June 2025)</h3>
       <p>
        Built a machine learning model to predict mobile phone prices using historical specifications and user ratings. Included data preprocessing, model training, and performance evaluation.
       </p>
@@ -265,11 +268,11 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 
       <div className="project-actions">
         <a href="https://github.com/D200322/Smartphones" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
     <div className="project-card">
-      <h3>Lab - Heart Failure Prediction(2025)</h3>
+      <h3>Heart Failure Prediction  (June 2025)</h3>
       <p>
        Developed a predictive model to assess the risk of heart failure using clinical datasets. Focused on feature selection, classification modeling, and evaluation of model accuracy and reliability.
        
@@ -287,12 +290,12 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 
       <div className="project-actions">
         <a href="https://github.com/D200322/Heart-Failure-Prediction" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
 
     <div className="project-card">
-      <h3>Hospital Database Management System (2025)</h3>
+      <h3>Hospital Database Management System (December 2025 )</h3>
       <p>
         Designed and implemented a hospital database management system to efficiently store and manage patient, doctor, and treatment records.
       </p>
@@ -303,8 +306,8 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
+        <a href="https://github.com/D200322/eco-peace-website" className="github" target="_blank">GitHub</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
     <div className="project-card">
@@ -322,12 +325,12 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       <div className="project-actions">
         <a href="https://github.com/D200322/eco-peace-website" className="github" target="_blank" rel="noopener noreferrer">GitHub</a>
 
-        <a href="#" className="live">Live Demo</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
 
     <div className="project-card">
-      <h3>The Banking System</h3>
+      <h3>The Banking System (2024)</h3>
       <p>
         Developed a Python console application to manage bank accounts with functionalities for account creation, deposits, withdrawals, balance checking, and transfers between accounts, including input validation and error handling.
       </p>
@@ -338,25 +341,44 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 
       <div className="project-actions">
         <a href="https://github.com/D200322/Bank-Account-Management-System" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
     <div className="project-card">
-      <h3>A Mindful Grama Niladari Digital Platform-Group Mini Project </h3>
-      <p>
-        Designed a digital platform prototype to check Grama Niladhari availability, conducting UX research and enhancing usability through team collaboration.
-      </p>
-      <div className="project-tech">
-        <span>Figma</span>
-        <span>Prototyping</span>
-        <span>Group Project Collaboration</span>
-      </div>
+  <h3>A Mindful Grama Niladari Digital Platform – Group Mini Project ( October 2025)</h3>
 
-      <div className="project-actions">
-        <a href="https://github.com/your-repo" className="github" target="_blank">GitHub</a>
-        <a href="#" className="live">Live Demo</a>
-      </div>
-    </div>
+  <p>
+    Designed a digital platform prototype to check Grama Niladhari availability,
+    conducting UX research and enhancing usability through team collaboration.
+  </p>
+
+  <div className="project-tech">
+    <span>Figma</span>
+    <span>Prototyping</span>
+    <span>Group Project Collaboration</span>
+  </div>
+
+  <div className="project-actions">
+    <a
+      href="https://www.figma.com/proto/UANxAXZjce7K53h5paMu2C/EEI4361---GN_Quickcheck--Phone-?node-id=2-7&t=lqJ9iNeOyIXFHZFW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+      className="figma mobile"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      📱 Mobile App (Figma)
+    </a>
+
+    <a
+      href="https://www.figma.com/proto/0M1Cxo4gHu21dAd2I2ux6e/EEI4361---GN_Quickcheck--Web-?node-id=8-4&p=f&t=kaHrMCk7rmkLLLlS-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+      className="figma web"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      🌐 Web App (Figma)
+    </a>
+  </div>
+</div>
+
 
   </div>
 </section>
@@ -367,47 +389,84 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 <section id="certificates" className="section">
   <h2>Certificates</h2>
 
-  <ul className="list">
-    {[
-      {
-        title: "Google AI Essentials (5 Courses – Introduction to AI, Maximize Productivity With AI Tools, Discover the Art of Prompting, Use AI Responsibility, Stay Ahead of the AI Curve)",
-        image: "/certificates/google-ai.jpg",
-      },
-      { title: "Machine Learning – Kaggle", image: "/certificates/kaggle-ml.jpg" },
-      { title: "Intro to Programming – Kaggle", image: "/certificates/pro.jpg" },
-      { title: "Web Element Locator Strategies-Test Automation University(online learning program)", image: "/certificates/api_a.jpg" },
-      { title: "API Test Automation with Postman-Test Automation University(online learning program)", image: "/certificates/api_b.jpg" },
-      { title: "Codeless Test Automation with Selenium IDE-Test Automation University(online learning program)", image: "/certificates/api_c.jpg" },
-      { title: "Setting a Foundation for Successful Test Automation-Test Automation University(online learning program)", image: "/certificates/api_d.jpg" },
-      { title: "The Whole Team Approach to Continuous Testing-Test Automation University(online learning program)", image: "/certificates/api_e.jpg" },
-      { title: "Python Programming-Test Automation University(online learning program)", image: "/certificates/api_p.jpg" },
-
-      { title: "Web Design for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/web.jpg" },
-      { title: "Python for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/py.jpg" },
-
-      { title: "Introduction to C – Sololearn", image: "/certificates/c.jpg" },
-      { title: "Introduction to Javascript– Sololearn", image: "/certificates/j.jpg" },
-      { title: "Introduction to Python – Sololearn", image: "/certificates/py.jpg" },
-      { title: "Python Intermediate, Introduction to SQL – Sololearn", image: "/certificates/pyd.jpg" },
-      { title: "Introduction to SQL – Sololearn", image: "/certificates/sql.jpg" },
-      
-      
-    ].map((cert, index) => (
-      <li key={index} style={{ marginBottom: "12px" }}>
-        {cert.title}
-        <button
-          className="btn-primary"
-          onClick={() => {
-            setSelectedCertificate(cert.image); // store which certificate to show
-            setShowCertificates(true); // open modal
-          }}
-          style={{ marginLeft: "12px" }}
-        >
-          View Certificate
-        </button>
-      </li>
-    ))}
-  </ul>
+  {Object.entries({
+    "AI": {
+      skills: ["AI Fundamentals", "Productivity with AI Tools", "Prompt Engineering", "AI Responsibility", "Staying Ahead in AI"],
+      certificates: [
+        {
+          title: "Google AI Essentials (5 Courses – Introduction to AI, Maximize Productivity With AI Tools, Discover the Art of Prompting, Use AI Responsibility, Stay Ahead of the AI Curve)",
+          image: "/certificates/google-ai.jpg",
+        }
+      ]
+    },
+    "Kaggle": {
+      skills: ["Machine Learning", "Programming Fundamentals"],
+      certificates: [
+        { title: "Machine Learning – Kaggle", image: "/certificates/kaggle-ml.jpg" },
+        { title: "Intro to Programming – Kaggle", image: "/certificates/pro.jpg" }
+      ]
+    },
+    "University of Moratuwa (Open Distance Learning)": {
+      skills: ["Web Design", "Python Programming"],
+      certificates: [
+        { title: "Web Design for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/web.jpg" },
+        { title: "Python for Beginners - University of Moratuwa (Open Distance Learning)", image: "/certificates/py.jpg" }
+      ]
+    },
+    "Test Automation University (Online Learning Program)": {
+      skills: ["Test Automation", "API Testing", "Selenium IDE", "Continuous Testing", "Python Programming"],
+      certificates: [
+        { title: "Web Element Locator Strategies - Test Automation University (Online Learning Program)", image: "/certificates/api_a.jpg" },
+        { title: "API Test Automation with Postman - Test Automation University (Online Learning Program)", image: "/certificates/api_b.jpg" },
+        { title: "Codeless Test Automation with Selenium IDE - Test Automation University (Online Learning Program)", image: "/certificates/api_c.jpg" },
+        { title: "Setting a Foundation for Successful Test Automation - Test Automation University (Online Learning Program)", image: "/certificates/api_d.jpg" },
+        { title: "The Whole Team Approach to Continuous Testing - Test Automation University (Online Learning Program)", image: "/certificates/api_e.jpg" },
+        { title: "Python Programming - Test Automation University (Online Learning Program)", image: "/certificates/api_p.jpg" }
+      ]
+    },
+    "SoloLearn": {
+      skills: ["C Programming", "JavaScript", "Python", "SQL"],
+      certificates: [
+        { title: "Introduction to C – SoloLearn", image: "/certificates/c.jpg" },
+        { title: "Introduction to JavaScript – SoloLearn", image: "/certificates/j.jpg" },
+        { title: "Introduction to Python – SoloLearn", image: "/certificates/py.jpg" },
+        { title: "Python Intermediate, Introduction to SQL – SoloLearn", image: "/certificates/pyd.jpg" },
+        { title: "Introduction to SQL – SoloLearn", image: "/certificates/sql.jpg" }
+      ]
+    }
+  }).map(([category, data]) => (
+    <div key={category} className="certificate-category" style={{ marginBottom: "40px" }}>
+      <h3>{category}</h3>
+      <div className="skills-list" style={{ marginBottom: "20px" }}>
+        <h4>Skills Acquired:</h4>
+        <ul>
+          {data.skills.map((skill, idx) => (
+            <li key={idx}>{skill}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="certificates-list">
+        <h4>Certificates:</h4>
+        <ul className="list">
+          {data.certificates.map((cert, index) => (
+            <li key={index} style={{ marginBottom: "12px" }}>
+              {cert.title}
+              <button
+                className="btn-primary"
+                onClick={() => {
+                  setSelectedCertificate(cert.image);
+                  setShowCertificates(true);
+                }}
+                style={{ marginLeft: "12px" }}
+              >
+                View Certificate
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  ))}
 
   {/* Modal */}
   {showCertificates && selectedCertificate && (
