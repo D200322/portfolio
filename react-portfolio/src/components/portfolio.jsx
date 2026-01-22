@@ -70,7 +70,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       <section id="about" className="section">
         <h2>About Me</h2>
         <p>
-          Software Engineering undergraduate currently pursuing a Bachelor of Software Engineering at The Open University of Sri Lanka, seeking a software engineering internship to gain practical industry experience and develop skills to become a competent and well-regarded software professional.
+          Software Engineering undergraduate currently pursuing a Bachelor of Software Engineering at The Open University of Sri Lanka, seeking a software engineering or software-related internship to apply academic knowledge, gain practical industry experience, and further develop technical skills toward becoming a competent and well-regarded software professional.
         </p>
       </section>
 
@@ -306,7 +306,7 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
       </div>
 
       <div className="project-actions">
-        <a href="https://github.com/D200322/eco-peace-website" className="github" target="_blank">GitHub</a>
+        <a href="https://github.com/D200322/Hospital-Database" className="github" target="_blank">GitHub</a>
         {/*<a href="#" className="live">Live Demo</a>*/}
       </div>
     </div>
@@ -376,8 +376,42 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
     >
       🌐 Web App (Figma)
     </a>
+    <div className="project-actions">
+        <a href="https://github.com/D200322/GN_QuickCheck-" className="github" target="_blank">GitHub</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
+    </div>
+    
   </div>
 </div>
+
+<div className="project-card">
+      <h3>JMeter Test Report  (June 2025)</h3>
+      <p>
+       Test Case </p>  <p>Load Performance Testing
+      </p>
+
+      <div className="project-tech">
+        <span>Apache JMeter</span>
+      </div>
+
+      <div className="project-actions">
+        <a href="https://github.com/D200322/Software-Testing-and-Quality-Assurance-Case-Study-" className="github" target="_blank">GitHub</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
+      </div>
+    </div>
+
+    <div className="project-card">
+      <h3>Smart Parental Controls – Smart Parenting and Family Management App (July 2025)</h3>
+      <p>
+        Created an IEEE-standard Software Requirements Specification (SRS) 
+      </p>
+
+
+      <div className="project-actions">
+        <a href="https://github.com/D200322/Smart-Parental-Controls-SRS" className="github" target="_blank">GitHub</a>
+        {/*<a href="#" className="live">Live Demo</a>*/}
+      </div>
+    </div>
 
 
   </div>
