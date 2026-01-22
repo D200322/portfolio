@@ -537,6 +537,12 @@ body {
   color: #00b4ff;
   border-radius: 20px;
   font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.skills-list li:hover {
+  background: rgba(0, 180, 255, 0.3);
 }
 
 /* Certificate List */

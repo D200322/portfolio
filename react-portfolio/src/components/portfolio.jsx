@@ -7,9 +7,17 @@ import { useState } from "react";
 
 
 export default function Portfolio() {
- 
+
   const [showCertificates, setShowCertificates] = useState(false);
 const [selectedCertificate, setSelectedCertificate] = useState(null);
+const [visibleCertificates, setVisibleCertificates] = useState({});
+
+  const toggleCertificates = (category) => {
+    setVisibleCertificates(prev => ({
+      ...prev,
+      [category]: !prev[category]
+    }));
+  };
 
   return (
     <div className="portfolio">
@@ -475,30 +483,32 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
         <h4>Skills Acquired:</h4>
         <ul>
           {data.skills.map((skill, idx) => (
-            <li key={idx}>{skill}</li>
+            <li key={idx} onClick={() => toggleCertificates(category)} style={{ cursor: "pointer", color: "#00b4ff" }}>{skill}</li>
           ))}
         </ul>
       </div>
-      <div className="certificates-list">
-        <h4>Certificates:</h4>
-        <ul className="list">
-          {data.certificates.map((cert, index) => (
-            <li key={index} style={{ marginBottom: "12px" }}>
-              {cert.title}
-              <button
-                className="btn-primary"
-                onClick={() => {
-                  setSelectedCertificate(cert.image);
-                  setShowCertificates(true);
-                }}
-                style={{ marginLeft: "12px" }}
-              >
-                View Certificate
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
+      {visibleCertificates[category] && (
+        <div className="certificates-list">
+          <h4>Certificates:</h4>
+          <ul className="list">
+            {data.certificates.map((cert, index) => (
+              <li key={index} style={{ marginBottom: "12px" }}>
+                {cert.title}
+                <button
+                  className="btn-primary"
+                  onClick={() => {
+                    setSelectedCertificate(cert.image);
+                    setShowCertificates(true);
+                  }}
+                  style={{ marginLeft: "12px" }}
+                >
+                  View Certificate
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   ))}
 
