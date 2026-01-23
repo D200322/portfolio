@@ -72,8 +72,7 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
     </a>
   </div>
 </section>
-
-
+     
       {/* About Me */}
       <section id="about" className="section">
         <h2>About Me</h2>
