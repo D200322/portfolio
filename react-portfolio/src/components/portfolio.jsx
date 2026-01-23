@@ -1,7 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import profilePic from "../assets/profile.jpg";
-import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaEnvelope, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaJava } from "react-icons/fa";
+
 import { useState } from "react";
 
 
@@ -87,55 +88,70 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
   <h2>Skills</h2>
 
   <h3>Technical Skills</h3>
-  <div className="skills-container">
+  <div className="skills-icons-grid">
+  <div className="skill-icon-card">
+    <FaHtml5 />
+    <span>HTML5</span>
+  </div>
 
-    <div className="skills-category">
-      <h4>Frontend Development</h4>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript (ES6+)</li>
-        <li><strong>React.js</strong></li>
-      </ul>
-    </div>
+  <div className="skill-icon-card">
+    <FaCss3Alt />
+    <span>CSS3</span>
+  </div>
 
-    <div className="skills-category">
-      <h4>Backend Development</h4>
-      <ul>
-        <li>Node.js</li>
-        <li><strong>Express.js</strong></li>
-        <li>Java</li>
-      </ul>
-    </div>
+  <div className="skill-icon-card">
+    <FaJs />
+    <span>JavaScript</span>
+  </div>
 
-    <div className="skills-category">
-      <h4>Databases</h4>
-      <ul>
-        <li>MySQL</li>
-        <li><strong>MongoDB</strong></li>
-      </ul>
-    </div>
+  <div className="skill-icon-card">
+    <FaReact />
+    <span>React</span>
+  </div>
 
-    <div className="skills-category">
-      <h4>Tools & Technologies</h4>
-      <ul>
-        <li>Git & GitHub</li>
-        <li>Postman</li>
-        <li>VS Code</li>
-      </ul>
-    </div>
+  <div className="skill-icon-card">
+    <FaNodeJs />
+    <span>Node.js</span>
+  </div>
 
-    <div className="skills-category">
-      <h4>AI & Data</h4>
+  <div className="skill-icon-card">
+    <FaDatabase />
+    <span>Databases (MySQL, MongoDB)</span>
+  </div>
+
+  <div className="skill-icon-card">
+    <FaGithub />
+    <span>GitHub</span>
+  </div>
+  <div className="skill-icon-card">
+    <FaJava />
+    <span>Java</span>
+  </div>
+
+  {/*<div className="skill-icon-card">
+    <SiMysql />
+    <span>MySQL</span>
+  </div>
+
+  <div className="skill-icon-card">
+    <SiMongodb />
+    <span>MongoDB</span>
+  </div>
+
+  <div className="skill-icon-card">
+    <SiVisualstudiocode />
+    <span>VS Code</span>
+  </div>*/}
+ </div>
+ <div className="skills-category">
+      <h4>AI & Data Analyst</h4>
       <ul>
         <li>Machine Learning </li>
         <li>AI</li>
       </ul>
     </div>
 
-  </div>
-
-  <h3>Soft Skills</h3>
+    <h3>Soft Skills</h3>
   <div className="skills-container">
     <div className="skills-category">
       <ul>
@@ -146,6 +162,7 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
       </ul>
     </div>
   </div>
+ 
 </section>
 
 

@@ -365,6 +365,42 @@ body {
 .skills-category li strong {
   color: #ffffff;
 }
+/* ===== Skills Icons Grid ===== */
+.skills-icons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  margin: 40px auto 60px;
+  max-width: 900px;
+}
+
+.skill-icon-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skill-icon-card svg {
+  font-size: 2.8rem;
+  color: #00b4ff;
+}
+
+.skill-icon-card span {
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.skill-icon-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.14);
+}
+
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
