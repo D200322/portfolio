@@ -431,7 +431,7 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
   <h2>Certificates</h2>
 
   {Object.entries({
-    "AI": {
+    "Google AI Essentials": {
       skills: ["AI Fundamentals", "Productivity with AI Tools", "Prompt Engineering", "AI Responsibility", "Staying Ahead in AI"],
       certificates: [
         {
@@ -446,6 +446,7 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
         { title: "Machine Learning – Kaggle", image: "/certificates/kaggle-ml.jpg" },
         { title: "Intro to Programming – Kaggle", image: "/certificates/pro.jpg" }
       ]
+      
     },
     "University of Moratuwa (Open Distance Learning)": {
       skills: ["Web Design", "Python Programming"],
