@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import profilePic from "../assets/profile.jpg";
-import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaEnvelope, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaJava } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaEnvelope, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaJava, FaPython } from "react-icons/fa";
 
 import { useState } from "react";
 
@@ -12,6 +12,7 @@ export default function Portfolio() {
   const [showCertificates, setShowCertificates] = useState(false);
 const [selectedCertificate, setSelectedCertificate] = useState(null);
 const [visibleCertificates, setVisibleCertificates] = useState({});
+const [educationAnimated, setEducationAnimated] = useState(false);
 
   const toggleCertificates = (category) => {
     setVisibleCertificates(prev => ({
@@ -25,10 +26,10 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
 
       {/* Navbar */}
       <nav className="navbar">
-        <h2 className="logo">Durangi</h2>
+        <h2 className="logo">Durangi Sudasingha</h2>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
+          <li><a href="#education" onClick={() => setEducationAnimated(true)}>Education</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#certificates">Certificates</a></li>
@@ -105,13 +106,8 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
   </div>
 
   <div className="skill-icon-card">
-    <FaReact />
-    <span>React</span>
-  </div>
-
-  <div className="skill-icon-card">
-    <FaNodeJs />
-    <span>Node.js</span>
+    <FaPython />
+    <span>Python</span>
   </div>
 
   <div className="skill-icon-card">
@@ -120,20 +116,31 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
   </div>
 
   <div className="skill-icon-card">
-    <FaGithub />
-    <span>GitHub</span>
+    <FaReact />
+    <span>React</span>
   </div>
+
   <div className="skill-icon-card">
     <FaJava />
     <span>Java</span>
   </div>
 
-  {/*<div className="skill-icon-card">
-    <SiMysql />
-    <span>MySQL</span>
-  </div>
 
   <div className="skill-icon-card">
+    <FaNodeJs />
+    <span>Node.js</span>
+  </div>
+
+  
+
+  <div className="skill-icon-card">
+    <FaGithub />
+    <span>GitHub</span>
+  </div>
+  
+  
+
+  {/*<div className="skill-icon-card">
     <SiMongodb />
     <span>MongoDB</span>
   </div>
@@ -169,23 +176,23 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
       {/* Education */}
       <section id="education" className="section">
         <h2>Education</h2>
-        <div className="card">
+        <div className="card slide-in-1">
           <h3>Bachelor of Software Engineering</h3>
           <p>Faculty of Engineering Technology</p>
           <p>The Open University of Sri Lanka</p>
           <small>2024 – Present</small>
         </div>
-        <div className="card">
+        <div className="card slide-in-2">
           <h3>Diploma in Information Technology</h3>
           <p>Esoft Metro Campus - Piliyandala</p>
           <small>2023 - 2024</small>
         </div>
-        <div className="card">
+        <div className="card slide-in-3">
           <h3>Diploma in English</h3>
           <p>Esoft Metro Campus - Piliyandala</p>
           <small>2023 - 2024</small>
         </div>
-        <div className="card">
+        <div className="card slide-in-4">
           <h3>G.C.E Advanced Level</h3>
           <p>Physical Science Stream</p>
           <p>Combined Mathematics - S</p>
@@ -196,13 +203,13 @@ const [visibleCertificates, setVisibleCertificates] = useState({});
           <p>Anula Vidyalaya - Nugegoda</p>
           <small>2022</small>
         </div>
-        <div className="card">
+        <div className="card slide-in-5">
           <h3>G.C.E Ordinary Level</h3>
           <p>Anula Vidyalaya - Nugegoda</p>
           <p>9 A's</p>
           <small>2019</small>
         </div>
-        <div className="card">
+        <div className="card slide-in-6">
           <h3>Certification Course in Information Technology</h3>
           <p>Ranaviru Information TechnologyTraining Institute</p>
           <p>Completed</p>
