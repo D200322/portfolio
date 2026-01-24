@@ -226,12 +226,13 @@ const [educationAnimated, setEducationAnimated] = useState(false);
     <div className="project-card">
       <h3>Portfolio (January 2026)</h3>
       <p>
-        My portfolio website built with React.js to ahowcase my skills, projects, and contact information.
+        My portfolio website built with React.js to showcase my skills, projects, and contact information.
       
       </p>
 
       <div className="project-tech">
-        <span>React</span>
+        <span>React.js</span>
+        <span>CSS</span>
       </div>
 
       <div className="project-actions">
@@ -251,6 +252,7 @@ const [educationAnimated, setEducationAnimated] = useState(false);
         <span>Node.js</span>
         <span>Express</span>
         <span>MongoDB</span>
+        <span>Teamwork</span>
       </div>
 
       <div className="project-actions">
@@ -387,6 +389,7 @@ const [educationAnimated, setEducationAnimated] = useState(false);
     <span>Figma</span>
     <span>Prototyping</span>
     <span>Group Project Collaboration</span>
+     <span>Teamwork</span>
   </div>
 
   <div className="project-actions">
