@@ -138,7 +138,16 @@ const [educationAnimated, setEducationAnimated] = useState(false);
     <span>GitHub</span>
   </div>
   
-  
+  <div className="skill-icon-card">
+    <span><h3>AI(Artificial Intelligence) </h3></span>
+  </div>
+
+  <div className="skill-icon-card">
+    <span><h2>Machine Learning </h2></span>
+  </div>
+  <div className="skill-icon-card">
+    <span><h2>Data Science </h2></span>
+  </div>
 
   {/*<div className="skill-icon-card">
     <SiMongodb />
@@ -150,13 +159,7 @@ const [educationAnimated, setEducationAnimated] = useState(false);
     <span>VS Code</span>
   </div>*/}
  </div>
- <div className="skills-category">
-      <h4>AI & Data Analyst</h4>
-      <ul>
-        <li>Machine Learning </li>
-        <li>AI</li>
-      </ul>
-    </div>
+ 
 
     <h3>Soft Skills</h3>
   <div className="skills-container">
