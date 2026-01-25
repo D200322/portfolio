@@ -13,6 +13,7 @@ export default function Portfolio() {
 const [selectedCertificate, setSelectedCertificate] = useState(null);
 const [visibleCertificates, setVisibleCertificates] = useState({});
 const [educationAnimated, setEducationAnimated] = useState(false);
+const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleCertificates = (category) => {
     setVisibleCertificates(prev => ({
@@ -27,17 +28,25 @@ const [educationAnimated, setEducationAnimated] = useState(false);
       {/* Navbar */}
       <nav className="navbar">
         <h2 className="logo">Durangi Sudasingha</h2>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education" onClick={() => setEducationAnimated(true)}>Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#certificates">Certificates</a></li>
-          <li><a href="#activities">Activities</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        
 
+  <ul className={menuOpen ? "nav-links open" : "nav-links"}>
+    <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
+    <li><a href="#education" onClick={() => { setEducationAnimated(true); setMenuOpen(false); }}>Education</a></li>
+    <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
+    <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
+    <li><a href="#certificates" onClick={() => setMenuOpen(false)}>Certificates</a></li>
+    <li><a href="#activities" onClick={() => setMenuOpen(false)}>Activities</a></li>
+    <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+  </ul>
+  <div
+    className="hamburger"
+    onClick={() => setMenuOpen(!menuOpen)}
+  >
+    ☰
+  </div>
+      </nav>
+      
       {/* Hero Section */}
       {/*<section className="hero">
         <div className="hero-content">
@@ -177,7 +186,12 @@ const [educationAnimated, setEducationAnimated] = useState(false);
 
 
       {/* Education */}
-      <section id="education" className="section">
+      <section
+  id="education"
+  className={`section ${educationAnimated ? "animate-education" : ""}`}
+>
+
+        
         <h2>Education</h2>
         <div className="card slide-in-1">
           <h3>Bachelor of Software Engineering</h3>
