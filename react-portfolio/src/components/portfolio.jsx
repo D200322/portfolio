@@ -14,13 +14,10 @@ const [selectedCertificate, setSelectedCertificate] = useState(null);
 const [visibleCertificates, setVisibleCertificates] = useState({});
 const [educationAnimated, setEducationAnimated] = useState(false);
 const [menuOpen, setMenuOpen] = useState(false);
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.navbar ul');
 
-  const toggleCertificates = (category) => {
-    setVisibleCertificates(prev => ({
-      ...prev,
-      [category]: !prev[category]
-    }));
-  };
+
 
   return (
     <div className="portfolio">
