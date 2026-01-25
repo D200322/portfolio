@@ -11,11 +11,24 @@ export default function Portfolio() {
 
   const [showCertificates, setShowCertificates] = useState(false);
 const [selectedCertificate, setSelectedCertificate] = useState(null);
-const [visibleCertificates, setVisibleCertificates] = useState({});
+const [visibleCertificates, setVisibleCertificates] = useState({
+  "Google AI Essentials": true,
+  "Kaggle": true,
+  "University of Moratuwa (Open Distance Learning)": true,
+  "Test Automation University (Online Learning Program)": true,
+  "SoloLearn": true,
+});
 const [educationAnimated, setEducationAnimated] = useState(false);
 const [menuOpen, setMenuOpen] = useState(false);
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.navbar ul');
+
+const toggleCertificates = (category) => {
+  setVisibleCertificates(prev => ({
+    ...prev,
+    [category]: !prev[category]
+  }));
+};
 
 
 
